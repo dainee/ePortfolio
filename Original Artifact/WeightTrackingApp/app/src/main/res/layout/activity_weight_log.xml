@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/goal_weight_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goal Weight: 110.0 lbs"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight History:"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/weight_log_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"/>
+
+    <Button
+        android:id="@+id/add_weight_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Weight" />
+
+    <Button
+        android:id="@+id/set_goal_weight_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Goal Weight" />
+
+    <Button
+        android:id="@+id/sms_notification_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS Notifications" />
+</LinearLayout>
